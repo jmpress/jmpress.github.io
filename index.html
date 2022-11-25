@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../public/css/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="../../public/css/toggle-switch.css"></link>
+    <link rel="stylesheet" type="text/css" href="../../public/css/fontawesome.css"></link>
+    <link rel="stylesheet" type="text/css" href="../../public/css/brands.css"></link>
+    <link rel="stylesheet" type="text/css" href="../../public/css/solid.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro">
+
+    <link rel="shortcut icon" href="../../public/favicon.ico" />
+    <title>::Jeffrey Press::</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Jeffrey Press</h1>
+            <ul>
+                <li><a href="#recent-work">Work</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="controls">
+            <label class="toggle-switch">
+                Dark Mode
+                <input type="checkbox" id="dark-mode-toggle">
+                <div class="toggle-switch-border">
+                    <div class="toggle-switch-dot"></div>
+                </div>
+            </label>
+        </div>
+    </header>
+    
+    
+    <section class="bio">
+        <img class="profile-img" alt="A headshot of the author, black ball cap and aviator sunglasses. Very G Q." src="../assets/images/jeffPic.jpg"/>
+            <div>
+                <h1>:: Jeffrey Press :: <br>Bread Baker Turned Web App Maker</h1>
+                <p>I have been coding and making web-app projects since 2022. I have experience and interest in using Javascript, Node, Express and PostgreSQL to create RESTful APIs for web-apps. In my free time, I enjoy bread-baking, metalworking, and misty morning hikes with my family.</p>
+                <a class="btn" href="#recent-work">See my work</a>
+            </div>
+    </section>
+    
+    <section id="recent-work" class="recent-work">
+        <h2>Recent Work</h2>
+        <article>
+            <div>
+            <h3>Project:: vassilating-tesseract</h3>
+            <p>This portfolio website</p>
+            <strong>October 2022 (in development)</strong>
+            <ul>
+                <li>Created a portfolio page with a small bio and a list of my recent projects.</li>
+                <li>Implemented with Ember.js and using ember-data addon to handle data from backend</li>
+                <li>Blog articles are served via API from a separate back-end app (see related repo: <a href="https://github.com/jmpress/vtArticleServer">vtArticleServer</a></li>
+            </ul>
+            <a class="btn" target="blank" href="https://github.com/jmpress/vassilating-tesseract">GitHub Repo</a>
+            </div>
+            <img class="article-img" alt="The author posing in casual techwear cycling outfit in front of colorful mural" src="../assets/images/reflectWear.jpg" />
+        </article>
+        <article>
+            <div>
+            <h3>Project:: supreme-broccoli</h3>
+            <p>A platform that allows users to participate in photo caption contests.</p>
+            <strong>September 2022</strong>
+            <ul>
+                <li>Created the back end for a platform where users can submit captions</li>
+                <li>Implemented security best practices to authenticate and authorize users</li>
+                <li>Created a cache to store frequently requested data</li>
+                <li>Created a simple front-end that utilizes the express-handlebars view engine</li>
+            </ul>
+            <a class="btn" target="blank" href="https://supreme-broccoli.herokuapp.com">Hosted on Heroku</a>
+            <a class="btn" target="blank" href="https://github.com/jmpress/supreme-broccoli">GitHub Repo</a>
+            </div>
+            <img class="article-img" alt="Coach McGuirk from Home Movies driving a fancy car" src="../assets/images/thunderbird.jpeg" />
+        </article>
+        <article>
+            <div>
+            <h3>Project:: vigilant-palm-tree</h3>
+            <p>A platform for tracking problems, issues, bugs, work orders, etc.</p>
+            <strong>August 2022</strong>
+            <ul>
+                <li>Created a platform for users to track issues that need to be worked on.</li>
+                <li>Maintains open/close status, date created/edited, priority, and notes. </li>
+                <li>A simple Inbox with sortable headers helps prioritize. Can hide/unhide closed tickets.</li>
+            </ul>
+            <a class="btn" target="blank" href="https://vigilant-palm-tree.herokuapp.com">Hosted on Heroku</a>
+            <a class="btn" target="blank" href="https://github.com/jmpress/vigilant-palm-tree">GitHub Repo</a>
+            </div>
+            <img class="article-img" alt="magnifying glass looks at bug" src="../assets/images/Bugtracking-1-2985363084.png" />
+        </article>
+    </section>
+    
+    <footer>
+          <ul>
+            <li>
+              <a target="blank" href="https://www.linkedin.com/in/jmichaelpress/">
+                LinkedIn
+                <span class="link-icon">
+                  <i class="fa-brands fa-linkedin"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a target="blank" href="#">
+                CV
+                <span class="link-icon">
+                  <i class="fa-solid fa-user"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a target="blank" href="https://github.com/jmpress">
+                GitHub
+                <span class="link-icon">
+                  <i class="fa-brands fa-github"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">© 2022 Jeffrey Press</p>
+        </footer>
+</body>
+</html>
