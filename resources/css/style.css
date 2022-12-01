@@ -1,15 +1,8 @@
-@import "fontawesome.css";
-@import "brands.css";
-@import "solid.css";
-body {
-    margin: 0 auto;
-    padding: 0 1rem;
-    display: flex;
-    flex-direction: column;
-    max-width: 1024px;
-    font-family: 'Source Sans Pro', sans-serif;
 
-    justify-content: space-around;
+body {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #18191a;
 
 }
 
@@ -25,6 +18,14 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-family: 'Inconsolata', sans-serif;
+}
+
+header {
+  position:fixed;
+  z-index: 1;
+  width: 95%;
+  background-color: #ffffff;
+  top: 0;
 }
 
 header nav {
@@ -47,12 +48,22 @@ header nav li a {
   text-decoration: none;
 }
 
+main {
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  position: relative;
+  z-index:0;
+  top: 20px;
+}
+
 .bio {
   display: flex;
   align-items: center;
   padding-block-end: 4rem;
   padding-block-start: 2rem;
-  
   
 }
 .bio .profile-img {
@@ -88,6 +99,8 @@ a.btn {
   border-radius: 1.25rem;
   font-size: 0.875rem;
   font-family: 'Inconsolata', sans-serif;
+  background-color: #18191a;
+  color: #ffffff;
 }
 .recent-work {
   padding-block-end: 3rem;
@@ -172,4 +185,6 @@ footer .link-icon {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  color:#ffffff;
+  background-color: #18191a;
 }
