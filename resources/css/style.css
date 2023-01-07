@@ -100,8 +100,23 @@ a.btn {
   font-size: 0.875rem;
   font-family: 'Inconsolata', sans-serif;
   background-color: #18191a;
+  border: 1px solid #38393a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+a.btn:visited{
+  border: 1px solid #18191a;
+  background-color:#38393a;
   color: #ffffff;
 }
+
+a.btn:hover{
+  color: #18191a;
+  background-color: #ffffff;
+  border: 1px solid #18191a;
+}
+
 .recent-work {
   padding-block-end: 3rem;
 }
