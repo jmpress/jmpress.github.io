@@ -147,6 +147,7 @@ article li {
 article .article-img {
   width: 256px;
   min-width: 256px;
+  border-radius: 50px;
   margin-inline-start: 4rem;
 }
 
